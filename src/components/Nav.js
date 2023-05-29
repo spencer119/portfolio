@@ -38,10 +38,10 @@ const Nav = ({ darkMode }) => {
             onChange={(e) => setTheme(e.target.checked ? "dark" : "light")}
           ></Switch>
         </Navbar.Item>
-        <Navbar.Link>
+        <Navbar.Link href="https://www.linkedin.com/in/spencerhamilton119" target="_blank">
           <LinkedIn />
         </Navbar.Link>
-        <Navbar.Link>
+        <Navbar.Link href="https://github.com/spencer119" target="_blank">
           <GitHub />
         </Navbar.Link>
       </Navbar.Content>
