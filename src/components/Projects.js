@@ -1,5 +1,6 @@
 import { Grid, Card, Text, Row, Button } from "@nextui-org/react";
 import React, { useState, useEffect } from "react";
+import Sero from "./projects/Sero";
 const Projects = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const Projects = () => {
                 <Button size="sm" light>
                   Learn more
                 </Button>
-                <Button size="sm">GitHub </Button>
+                <Button size="sm">Website</Button>
               </Row>
             </Card.Footer>
           </Card>
@@ -28,9 +29,7 @@ const Projects = () => {
           <Card></Card>
         </Grid>
         <Grid xs={4}>
-          <Card>
-            <Card.Body></Card.Body>
-          </Card>
+          <Sero />
         </Grid>
       </Grid.Container>
     </>
