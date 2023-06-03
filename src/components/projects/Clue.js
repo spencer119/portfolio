@@ -1,31 +1,36 @@
 import React from "react";
-import { Card, Row, Text, Button, Spacer, Grid } from "@nextui-org/react";
-import seroimg from "../../images/sero-home.png";
-const Sero = () => {
+import {
+  Card,
+  Row,
+  Text,
+  Button,
+  Spacer,
+  Container,
+  Grid,
+} from "@nextui-org/react";
+import clueimg from "../../images/clue.png";
+const Clue = () => {
   return (
     <Card isHoverable>
       <Card.Header>
         <Grid.Container>
           <Row>
             <Text b size="$lg">
-              Sero Health
+              Clue Game
             </Text>
           </Row>
           <Row>
             <Text i size="$sm">
-              Full stack React app
+              Java game
             </Text>
           </Row>
         </Grid.Container>
       </Card.Header>
       <Card.Divider />
       <Card.Body>
-        <Card.Image src={seroimg} height={350} />
+        <Card.Image src={clueimg} height={350} />
         <Spacer y={1} />
-        <Text>
-          Sero Health is an online therapy platform for remote EMDR therapy
-          sessions.
-        </Text>
+        <Text>description </Text>
       </Card.Body>
       <Card.Divider />
       <Card.Footer>
@@ -40,4 +45,4 @@ const Sero = () => {
   );
 };
 
-export default Sero;
+export default Clue;

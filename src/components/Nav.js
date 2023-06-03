@@ -16,7 +16,7 @@ const Nav = ({ darkMode }) => {
     <Navbar variant="sticky">
       <Navbar.Brand>
         <Text b h1 color="inherit" as={Link} to="/">
-          Portfolio
+          Spencer Hamilton's Portfolio
         </Text>
       </Navbar.Brand>
 
@@ -38,7 +38,10 @@ const Nav = ({ darkMode }) => {
             onChange={(e) => setTheme(e.target.checked ? "dark" : "light")}
           ></Switch>
         </Navbar.Item>
-        <Navbar.Link href="https://www.linkedin.com/in/spencerhamilton119" target="_blank">
+        <Navbar.Link
+          href="https://www.linkedin.com/in/spencerhamilton119"
+          target="_blank"
+        >
           <LinkedIn />
         </Navbar.Link>
         <Navbar.Link href="https://github.com/spencer119" target="_blank">
