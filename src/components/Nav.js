@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import resumePdf from "./resume.pdf";
 import { useTheme } from "next-themes";
 
-const Nav = ({ darkMode }) => {
+const Nav = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
   useEffect(() => {
@@ -13,9 +13,9 @@ const Nav = ({ darkMode }) => {
   }, []);
   if (!mounted) return null;
   return (
-    <Navbar variant="sticky">
+    <Navbar>
       <Navbar.Brand>
-        <Text b h1 color="inherit" as={Link} to="/">
+        <Text b h1 size="$lg" color="inherit" as={Link} to="/">
           Spencer Hamilton's Portfolio
         </Text>
       </Navbar.Brand>
