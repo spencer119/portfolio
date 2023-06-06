@@ -8,6 +8,7 @@ import {
   Container,
   Grid,
 } from "@nextui-org/react";
+import { GitHub } from "@mui/icons-material";
 import clueimg from "../../images/clue.png";
 const Clue = () => {
   return (
@@ -30,16 +31,20 @@ const Clue = () => {
       <Card.Body>
         <Card.Image src={clueimg} height={350} />
         <Spacer y={1} />
-        <Text>description </Text>
+        <Text>
+          A recreation of the game Clue written in Java. The game allows 1-6
+          human players with the remaining players being filled with AI.
+        </Text>
       </Card.Body>
       <Card.Divider />
       <Card.Footer>
         <Row justify="space-evenly">
-          <Button size="sm" light>
+          {/* <Button size="sm" light>
             Learn more
-          </Button>
+          </Button> */}
           <Button
-            size="sm"
+            size="md"
+            icon={<GitHub />}
             href="https://github.com/spencer119/ClueGame"
             target="_blank"
           >

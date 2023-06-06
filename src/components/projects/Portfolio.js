@@ -27,15 +27,20 @@ const Portfolio = () => {
       <Card.Body>
         <Card.Image height={350} src="https://via.placeholder.com/350" />
         <Spacer y={1} />
-        <Text>description</Text>
+        <Text>
+          This portfolio website. Buit using React and the NextUI library for UI
+          design.
+        </Text>
       </Card.Body>
       <Card.Divider />
       <Card.Footer>
         <Row justify="space-evenly">
-          <Button size="sm" light>
+          {/* <Button size="sm" light>
             Learn more
+          </Button> */}
+          <Button size="md" icon={<GitHub />}>
+            GitHub
           </Button>
-          <Button size="sm">GitHub</Button>
         </Row>
       </Card.Footer>
     </Card>

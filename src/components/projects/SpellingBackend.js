@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Row, Text, Button, Spacer, Grid } from "@nextui-org/react";
+import { GitHub } from "@mui/icons-material";
 const SpellingBackend = () => {
   return (
     <Card isHoverable>
@@ -26,10 +27,12 @@ const SpellingBackend = () => {
       <Card.Divider />
       <Card.Footer>
         <Row justify="space-evenly">
-          <Button size="sm" light>
+          {/* <Button size="sm" light>
             Learn more
+          </Button> */}
+          <Button size="md" icon={<GitHub />}>
+            GitHub
           </Button>
-          <Button size="sm">GitHub </Button>
         </Row>
       </Card.Footer>
     </Card>
