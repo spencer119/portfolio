@@ -8,12 +8,12 @@ const SpellingBackend = () => {
         <Grid.Container>
           <Row>
             <Text b size="$lg">
-              Backend for Spelling App
+              Spelling App REST API
             </Text>
           </Row>
           <Row>
             <Text i size="$sm">
-              Node.js REST API
+              Express.js REST API
             </Text>
           </Row>
         </Grid.Container>

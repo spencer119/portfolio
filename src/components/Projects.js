@@ -10,20 +10,20 @@ const Projects = () => {
     <>
       <Grid.Container gap={4} justify="center">
         <Grid xs={12} sm={6} md={4}>
-          <Portfolio />
-        </Grid>
-        <Grid xs={12} sm={6} md={4}>
           <Sero />
-        </Grid>
-        <Grid xs={12} sm={6} md={4}>
-          <Clue />
         </Grid>
         <Grid xs={12} sm={6} md={4}>
           <Spelling />
         </Grid>
         <Grid xs={12} sm={6} md={4}>
-          <SpellingBackend />
+          <Clue />
         </Grid>
+        <Grid xs={12} sm={6} md={4}>
+          <Portfolio />
+        </Grid>
+        {/* <Grid xs={12} sm={6} md={4}>
+          <SpellingBackend />
+        </Grid> */}
       </Grid.Container>
     </>
   );

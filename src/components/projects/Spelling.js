@@ -1,9 +1,10 @@
 import React from "react";
-import { Card, Row, Text, Button, Spacer, Grid } from "@nextui-org/react";
+import { Card, Row, Text, Button, Spacer, Grid, Link } from "@nextui-org/react";
 import { GitHub } from "@mui/icons-material";
+import spellingimg from "../../images/spelling.jpg";
 const Spelling = () => {
   return (
-    <Card isHoverable>
+    <Card>
       <Card.Header>
         <Grid.Container>
           <Row>
@@ -20,18 +21,39 @@ const Spelling = () => {
       </Card.Header>
       <Card.Divider />
       <Card.Body>
-        <Card.Image src="https://via.placeholder.com/350" height={350} />
+        <Card.Image src={spellingimg} height={350} />
         <Spacer y={1} />
-        <Text>c </Text>
+        <Text>
+          An online spelling test platform developed for a local elementary
+          school during the COVID-19 lockdowns. It allowed teachers to create
+          spelling lists with accomponied audio, online student practice, and
+          auto graded assessments. The frontend was built using React and the
+          Bootstrap CSS framework. The backend was built using Node.js and
+          Express.js. Additionally, user data and media files were stored in a
+          MongoDB database.
+        </Text>
       </Card.Body>
       <Card.Divider />
       <Card.Footer>
         <Row justify="space-evenly">
-          {/* <Button size="sm" light>
-            Learn more
-          </Button> */}
-          <Button size="md" icon={<GitHub />}>
-            GitHub
+          <Button
+            as={Link}
+            size="md"
+            icon={<GitHub />}
+            target="_blank"
+            href="https://github.com/spencer119/spelling-tests"
+          >
+            Frontend
+          </Button>
+
+          <Button
+            as={Link}
+            size="md"
+            icon={<GitHub />}
+            target="_blank"
+            href="https://github.com/spencer119/spelling-tests-backend"
+          >
+            Backend API
           </Button>
         </Row>
       </Card.Footer>

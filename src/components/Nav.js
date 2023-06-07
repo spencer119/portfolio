@@ -16,7 +16,7 @@ const Nav = () => {
     <Navbar>
       <Navbar.Brand>
         <Text b h1 size="$lg" color="inherit" as={Link} to="/">
-          Spencer Hamilton's Portfolio (WIP) {/*TODO: Change back*/}
+          Spencer Hamilton's Portfolio
         </Text>
       </Navbar.Brand>
 
@@ -24,7 +24,7 @@ const Nav = () => {
         <Navbar.Link href={resumePdf} target="_blank">
           Resume
         </Navbar.Link>
-        <Navbar.Link>Contact</Navbar.Link>
+        {/* <Navbar.Link>Contact</Navbar.Link> */}
 
         <Navbar.Item
           onClick={() => {
