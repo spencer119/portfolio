@@ -16,7 +16,7 @@ const Nav = () => {
     <Navbar>
       <Navbar.Brand>
         <Text b h1 size="$lg" color="inherit" as={Link} to="/">
-          Spencer Hamilton's Portfolio
+          Spencer Hamilton's Portfolio (WIP) {/*TODO: Change back*/}
         </Text>
       </Navbar.Brand>
 
