@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.31d6cfe0.css",
+    "main.js": "/portfolio/static/js/main.9cb2d02d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/sero-home.png": "/portfolio/static/media/sero-home.817f0131e549ff1e1490.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.13438484da957da2941c.pdf",
+    "static/media/clue.png": "/portfolio/static/media/clue.412b22581059e5a24886.png",
+    "index.html": "/portfolio/index.html",
+    "main.9cb2d02d.js.map": "/portfolio/static/js/main.9cb2d02d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.9cb2d02d.js"
+  ]
+}
