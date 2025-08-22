@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Spencer's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal portfolio website built with React to showcase projects, experience, and contact information. The site supports light/dark themes and is deployed via GitHub Pages.
+
+Live site: http://spencer119.github.io/portfolio
+
+## Tech Stack
+
+- React 18 (Create React App)
+- UI: NextUI v1
+- Styling: Emotion (@emotion/react, @emotion/styled)
+- Theming: next-themes (light/dark mode)
+- Routing: react-router-dom v5
+- Tooling: react-scripts (CRA), gh-pages (deployment)
+- Testing: @testing-library/react, @testing-library/jest-dom, @testing-library/user-event
+- Performance: web-vitals
+
+## Getting Started
+
+Prerequisites:
+- Node.js (LTS recommended)
+- npm or yarn
+
+Install dependencies:
+- npm: npm install
+- yarn: yarn install
+
+Run the development server:
+- npm: npm start
+- yarn: yarn start
+
+The app will start at http://localhost:3000 and reload on changes.
 
 ## Available Scripts
 
-In the project directory, you can run:
+- Start (dev): npm start / yarn start
+- Test: npm test / yarn test
+- Build (production): npm run build / yarn build
+- Deploy to GitHub Pages: npm run deploy / yarn deploy
+- Eject (one-way): npm run eject / yarn eject
 
-### `yarn start`
+## Deployment (GitHub Pages)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is configured for GitHub Pages with the homepage set to:
+- http://spencer119.github.io/portfolio
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Deploy steps:
+1. Build the app: npm run build
+2. Publish the build: npm run deploy
+3. In your repository settings, enable GitHub Pages and select the gh-pages branch as the source.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Notes:
+- Routing uses react-router-dom v5 APIs.
+- UI components are built with NextUI; theming is handled by next-themes and Emotion.
