@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.31d6cfe0.css",
+    "main.js": "/portfolio/static/js/main.5c205373.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.743dc5207c5409bda5e5.png",
+    "static/media/sero-home.png": "/portfolio/static/media/sero-home.817f0131e549ff1e1490.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.d64ce2382cb501940d7a.pdf",
+    "static/media/spelling.jpg": "/portfolio/static/media/spelling.c8e87723eb79adc5c1b7.jpg",
+    "static/media/clue.png": "/portfolio/static/media/clue.412b22581059e5a24886.png",
+    "index.html": "/portfolio/index.html",
+    "main.5c205373.js.map": "/portfolio/static/js/main.5c205373.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.5c205373.js"
+  ]
+}
