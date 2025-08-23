@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Card,
-  Row,
-  Text,
-  Button,
-  Spacer,
-  Grid,
-  Tooltip,
-  Link,
-} from "@nextui-org/react";
+import { Card, Row, Text, Button, Spacer, Grid, Tooltip, Link } from "@nextui-org/react";
 import seroimg from "../../images/sero-home.png";
 import MedicalInformationIcon from "@mui/icons-material/MedicalInformation";
 const Sero = () => {
@@ -33,13 +24,11 @@ const Sero = () => {
         <Card.Image src={seroimg} height={350} />
         <Spacer y={1} />
         <Text>
-          Sero Health is an online therapy platform for remote EMDR therapy
-          sessions. By using bluetooth connected EMDR tappers, therapists can
-          fully control, administer, and record EMDR therapy sessions remotely.
-          The front end was built with React using Material UI. The backend
-          utilized Firebase for it's cloud storage, authentication, hosting, and
-          Firestore Database. Due to contract obligations, the source code is
-          not available.
+          Sero Health is an online therapy platform for remote EMDR therapy sessions. By using
+          bluetooth connected EMDR tappers, therapists can fully control, administer, and record
+          EMDR therapy sessions remotely. The front end was built with React using Material UI. The
+          backend utilized Firebase for it's cloud storage, authentication, hosting, and Firestore
+          Database. Due to contract obligations, the source code is not available.
         </Text>
       </Card.Body>
       <Card.Divider />
